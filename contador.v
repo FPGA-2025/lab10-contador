@@ -5,7 +5,7 @@ module Contador (
     input  wire acrescer,
     input  wire decrecer,
 
-    output wire [7:0] saida
+    output reg [7:0] saida
 );
 
 // Insira seu código aqui
